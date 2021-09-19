@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contate-me</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home</a>
         </li>
@@ -19,37 +21,65 @@
         </li>
     </ul>
 
-    <h1>Entre em contato comigo</h1>
+    <h1 class="center background">Entre em contato comigo</h1>
 
-    <form>
-        <label for="nome"> Nome: </label>
-        <p></p>
-        <input type="text" id="nome">
+    <div class="container mb-50">
+        <div class="ml-50">
+            <h2>Entre em contato comigo!</h2>
+            <form>
+                <label for="nome"> Nome: </label>
+                <p></p>
+                <input type="text" id="nome">
+        
+                <p></p>
+        
+                <label for="email">Email:</label>
+                <p></p>
+                <input type="email" id="email">
+        
+                <p></p>
+        
+                <label for="assunto">Assunto:</label>
+                <p></p>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+        
+                <p></p>
+        
+                <button>Enviar</button>
+            </form>
+        </div>
 
-        <p></p>
+        <div>
+            <h2>Endereço</h2>
+            <p>Rua Octacilio Celestino Gallo</p>
+            <p>São Bernardo do Campo - SP</p>
+        
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.4109317567063!2d-46.59697698578972!3d-23.661258171172328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce44a70df6dd65%3A0x60c492030d657c34!2Rua%20Octac%C3%ADlio%20Celestino%20Gallo%20-%20Jardim%20Borborema%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP%2C%2009660-080!5e0!3m2!1spt-BR!2sbr!4v1631816755846!5m2!1spt-BR!2sbr" 
+                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+            ></iframe>
+        </div>
+    </div>
 
-        <label for="email">Email:</label>
-        <p></p>
-        <input type="email" id="email">
+    <hr>
+    <footer>
 
-        <p></p>
+        <div class="container">
+        <a href="https://www.linkedin.com/in/enzo-fulaneto-32a9b4205/" target="blank">
+            <img class="tm-social p-30" src="assets/img/linkedin.png" alt="logo do LinkedIn">
+        </a>
 
-        <label for="assunto">Assunto:</label>
-        <p></p>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+        <a href="https://www.instagram.com/_enzo03/" target="blank">
+            <img class="tm-social p-30" src="assets/img/instagram.png" alt="logo do Instagram">
+        </a>
 
-        <p></p>
-
-        <button>Enviar</button>
-    </form>
-
-    <h2>Endereço</h2>
-    <p>Rua Octacilio Celestino Gallo</p>
-    <p>São Bernardo do Campo - SP</p>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.4109317567063!2d-46.59697698578972!3d-23.661258171172328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce44a70df6dd65%3A0x60c492030d657c34!2Rua%20Octac%C3%ADlio%20Celestino%20Gallo%20-%20Jardim%20Borborema%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP%2C%2009660-080!5e0!3m2!1spt-BR!2sbr!4v1631816755846!5m2!1spt-BR!2sbr" 
-        width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-    ></iframe>
+        <a href="https://github.com/EnzoFulaneto" target="blank">
+            <img class="tm-social p-30" src="assets/img/github.png" alt="logo do GitHub">
+        </a>
+        </div>
+        <p class="center">
+       Todos os direitos reservados para Enzo Fulaneto &copy;
+        </p>
+    </footer>
 
 </body>
 

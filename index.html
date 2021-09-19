@@ -6,13 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
-
-    <h1>Sobre Enzo</h1>
-
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home</a>
         </li>
@@ -21,24 +20,52 @@
             <a href="contato.html"> Contato</a>
         </li>
     </ul>
+    <h1 class="sobreenzo background">Sobre Enzo</h1>
 
-    <p>
+<div class="container">
+    <div>
+        <img  class="br-50 wh" src="assets/img/Profile.jpg" alt="Enzo Fulaneto">    
+    </div>
+    <div class="p-30">
+    <p class="center texto justify">
         Olá, sou o Enzo Fulaneto, tenho 18 anos. Estou no último bloco para me formar
         Desenvolvedor Full Stack Java Jr. pela ONG Generation Brasil e estou cursando para me tornar
         técnico em Análise e Desenvolvimento de Sistemas pela Uninove.
         Tenho conhecimentos em lógica de programação, Java (POO), Spring, MySQL e versionamentos de código (Git).
     </p>
-
-    <img src="assets/img/Profile.jpg" alt="Enzo Fulaneto">
-
+    </div>
+</div>
+    
     <p></p>
 
-    <h2>Uma das minhas playlists preferidas para programar: </h2>
+    <h2 class="center sobreenzo">Uma das minhas playlists preferidas para programar: </h2>
+    <div class="video mb-50">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/wxiT4CkO7CQ" title="YouTube video player"
     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
     ></iframe>
+    </div>
 
+    <hr>
+    <footer>
+
+        <div class="container">
+        <a href="https://www.linkedin.com/in/enzo-fulaneto-32a9b4205/" target="blank">
+            <img class="tm-social p-30" src="assets/img/linkedin.png" alt="logo do LinkedIn">
+        </a>
+
+        <a href="https://www.instagram.com/_enzo03/" target="blank">
+            <img class="tm-social p-30" src="assets/img/instagram.png" alt="logo do Instagram">
+        </a>
+
+        <a href="https://github.com/EnzoFulaneto" target="blank">
+            <img class="tm-social p-30" src="assets/img/github.png" alt="logo do GitHub">
+        </a>
+        </div>
+        <p class="center">
+       Todos os direitos reservados para Enzo Fulaneto &copy;
+        </p>
+    </footer>
 </body>
 
 </html>
